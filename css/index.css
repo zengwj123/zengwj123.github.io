@@ -1,0 +1,196 @@
+html, body,div {
+        position: relative;
+        height: 100%;
+        margin:0;
+        padding:0;
+    }
+    body {
+        
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color:#000;
+        margin: 0;
+        padding: 0;
+    }
+ .swiper-container {
+        width: 100%;
+        height: 100%;
+    }
+.swiper-slide{
+	height:100%;
+	background:url(../img/39.jpg);
+	background-size:100% 100% ;
+	
+}
+
+
+.swiper-slide .page1:nth-child(1){
+	width:100%;
+	height:40%;
+	
+}
+
+.svg{
+	z-index: 999;
+	width:10%;
+	height:10%;
+	position:fixed;
+	left:85%;
+	top:0;
+	animation: svg 2s linear infinite  ;
+}
+.swiper-slide .page1:nth-child(1) img:nth-child(1){
+	width:4rem;
+	height:4rem;
+}
+.swiper-slide .page1:nth-child(1) img:nth-child(2){
+	width:2rem;
+	height:8rem;
+	position: absolute;
+	left:9.2rem
+}
+.swiper-slide .page1:nth-child(1) img:nth-child(3){
+	position: absolute;
+	width:13rem;
+	height:6rem;
+	left:1.5rem;
+	top:4rem;
+	
+	/*animation: resume 1s linear;*/
+}
+
+
+.swiper-slide .page1:nth-child(2){
+	
+	width:100%;
+	height:55%;
+}
+.page2 div:nth-child(1){
+height:50%;
+}
+.page2 div:nth-child(2){
+height:50%;
+}
+.page2 div:nth-child(1) img{
+	width:100%;
+}
+.page2 .baseInfo{
+	position: absolute;
+    top: 22%;
+    left: 46%;
+    
+}
+
+.page2 .baseInfo p{
+	font-family: fangzheng_mhjt;
+    font-size: 19px;
+    color: inherit;
+    line-height: inherit;
+    background-color: initial;
+    font-weight: bolder;
+}
+
+.personInfo{
+	display: flex;
+	flex-flow: column nowrap;
+	/*justify-content: center;*/
+	align-items: center;
+}
+.personInfo span{
+	font-family: fangzheng_mhjt;
+    font-size: 19px;
+    color: black;
+    line-height: inherit;
+    background-color: initial;
+    
+}
+
+.rotate{
+	animation: rotate 5s linear infinite  ;
+	
+}
+
+.page3 .circle1{
+	position: absolute;
+	top:-4rem;
+	left:-4rem;
+	
+}
+.page3 .circle2{
+	position: absolute;
+	top:23rem;
+	left:10rem;
+	animation: rotate 8s linear infinite  ;
+}
+.page3 .skill{
+	position: absolute;
+	top:5rem;
+	left:2.4rem
+}
+.page3 .skill1{
+	position: absolute;
+	top:20rem;
+	left:3rem;
+	
+}
+
+
+.page3 .skill1 span{
+	position: absolute;
+	left:1.3rem;
+	top:1.3rem;
+}
+
+.page3 .skill2 span{
+	position: absolute;
+	left:0.8rem;
+	top:1.3rem;
+}
+.page3 .skill3 span{
+	position: absolute;
+	left:1rem;
+	top:1.3rem;
+}
+.page3 .skill4 span{
+	position: absolute;
+	left:1.3rem;
+	top:1.3rem;
+}
+.page3 .skill4 img{
+	animation: rotate 3s ease-in infinite  ;
+}
+.page3 .skill2{
+	position: absolute;
+	top:15rem;
+	left:10rem;
+	
+}
+.page3 .skill3{
+	position: absolute;
+	top:12rem;
+	left:3rem;
+	
+}
+.page3 .skill4{
+	position: absolute;
+	top:7rem;
+	left:10rem;
+	
+}
+@-webkit-keyframes svg{
+	0%{
+		transform: rotate(0deg);
+	}
+	100%{
+		transform: rotate(360deg);
+	}
+}
+@-webkit-keyframes rotate{
+	0%{
+		transform: rotate(0deg);
+	}
+	100%{
+		transform: rotate(360deg);
+	}
+}
+
