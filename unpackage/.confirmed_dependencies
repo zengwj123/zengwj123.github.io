@@ -1,0 +1,41 @@
+{
+	"index.html": {
+		"resources": [
+			"img/yun3.png",
+			"img/2.png",
+			"img/10.png",
+			"img/yun2.png",
+			"js/app.js",
+			"js/swiper.animate1.0.2.min.js",
+			"img/00.png",
+			"css/animate.min.css",
+			"js/swiper-3.3.1.jquery.min.js",
+			"img/yun1.png",
+			"img/24.png",
+			"img/3.png",
+			"css/index.css",
+			"js/jquery-1.11.0.js",
+			"img/5.png",
+			"img/1.png",
+			"img/6.png",
+			"img/0.png",
+			"img/21.png",
+			"img/pg1-music.svg",
+			"img/55.png",
+			"css/swiper-3.3.1.min.css",
+			"img/4.png",
+			"img/school.png",
+			"img/pr.png",
+			"img/age.png",
+			"img/30.png",
+			"img/lives.png",
+			"img/name.png",
+			"img/run.png",
+			"img/ng.png",
+			"img/team.png",
+			"img/department.png",
+			"img/19.png",
+			"img/talk.png"
+		]
+	}
+}
